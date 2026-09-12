@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sistema de Compras</string>
+    <string name="escolha_o_seu_produto">Escolha o seu produto</string>
+    <string name="arroz">Arroz (R$ 2,69)</string>
+    <string name="leite">Leite (R$ 5,00)</string>
+    <string name="carne">Carne (R$ 9,70)</string>
+    <string name="feijao">Feijão (R$ 2,70)</string>
+    <string name="total_das_compras">Total das compras</string>
+</resources>

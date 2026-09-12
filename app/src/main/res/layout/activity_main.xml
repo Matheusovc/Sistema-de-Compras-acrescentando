@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="@string/escolha_o_seu_produto"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cb_arroz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/arroz"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/cb_leite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/leite"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/cb_carne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/carne"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/cb_feijao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/feijao"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/bt_total_compras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/total_das_compras" />
+
+</LinearLayout>
